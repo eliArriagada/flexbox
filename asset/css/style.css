@@ -1,0 +1,127 @@
+body {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_izquierdo {
+    flex-basis: 20%;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #BEC1BB;
+    border-top: 0px;
+}
+
+.nombre {
+    flex-basis: 50%;
+}
+
+.foto_perfil {
+    border-radius: 50%;
+    width: 30px;
+    padding: 5%;
+
+}
+
+.estado {
+    font-size: x-small;
+    color: #BEC1BB
+}
+
+p {
+    margin: 0%;
+}
+
+.nuevo_chat {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    border: 1px solid #BEC1BB
+}
+
+.boton {
+    background-color: #A491D2;
+    color: white;
+    border-radius: 0%;
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    border-top: 0px;
+}
+
+.boton:hover {
+    background-color: #CDC3E6;
+}
+
+.boton:focus {
+    background-color: #E8EBE4;
+}
+
+.caja {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #BEC1BB;
+    border-top: 0px;
+}
+
+.iconos {
+    padding: 5%;
+    display: flex;
+    flex-basis:20%;
+    justify-content: space-around;
+}
+
+.foto {
+    border: 1px;
+    color: black;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    line-height: 120px;
+    border-radius: 60%;
+    padding: 5%;
+    padding-right: 5%;
+
+
+}
+
+.menu_derecho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80%;
+    background-color: #E8EBE4;
+}
+
+.foto_Nertworking {
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.frase_destacada {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.descripción {
+    text-align: center;
+}
